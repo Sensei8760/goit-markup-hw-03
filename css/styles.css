@@ -80,6 +80,7 @@ section {
 .header-navigation {
   display: flex;
   gap: 40px;
+  padding: 24px 0 24px;
 }
 
 .header-navigation-item {
@@ -87,7 +88,6 @@ section {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0 24px;
 }
 
 /*add*/
@@ -97,12 +97,12 @@ section {
 .header-navigation-address {
   display: flex;
   gap: 40px;
+  padding: 24px 0 24px;
 }
 .header-navigation-address-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0 24px;
 }
 .navigation-address {
   color: #434455;
