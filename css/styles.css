@@ -106,6 +106,7 @@ section {
 }
 .navigation-address {
   color: #434455;
+  padding: 24px 0;
 }
 .navigation-address:hover {
   color: #404bbf;
