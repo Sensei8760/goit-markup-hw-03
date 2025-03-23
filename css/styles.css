@@ -64,7 +64,6 @@ section {
 
 .section-header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0 24px;
 }
 
 .header-navigation-link {
@@ -88,6 +87,7 @@ section {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 /*add*/
@@ -102,6 +102,7 @@ section {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .navigation-address {
   color: #434455;
