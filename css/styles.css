@@ -76,11 +76,11 @@ section {
 .head-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 .header-navigation {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-navigation-item {
@@ -93,11 +93,11 @@ section {
 /*add*/
 .address-head {
   font-style: normal;
+  padding: 24px 0;
 }
 .header-navigation-address {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .header-navigation-address-item {
   font-size: 16px;
