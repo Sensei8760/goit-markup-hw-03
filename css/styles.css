@@ -45,7 +45,9 @@ section {
   padding-bottom: 120px;
 }
 /*head-logo*/
-
+header {
+  padding: 24px 0;
+}
 .logo {
   color: #4d5ae5;
   font-weight: 700;
@@ -76,7 +78,6 @@ section {
 .head-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 .header-navigation {
   display: flex;
@@ -93,7 +94,6 @@ section {
 /*add*/
 .address-head {
   font-style: normal;
-  padding: 24px 0;
 }
 .header-navigation-address {
   display: flex;
