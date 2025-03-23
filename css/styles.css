@@ -26,6 +26,11 @@ h6 {
 img {
   display: block;
 }
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0 24px;
+}
 .container {
   width: 1158px;
   padding: 0 15px;
@@ -59,11 +64,7 @@ section {
 .section-header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  padding: 24px 0 24px;
-}
+
 .header-navigation-link {
   color: #2e2f42;
 }
