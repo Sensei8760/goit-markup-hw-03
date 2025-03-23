@@ -35,7 +35,6 @@ img {
 .header-container {
   display: flex;
   justify-content: space-between;
-  padding: 24px 0 24px;
 }
 .section-title {
   padding-top: 188px;
@@ -88,6 +87,7 @@ section {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0 24px;
 }
 
 /*add*/
@@ -102,6 +102,7 @@ section {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0 24px;
 }
 .navigation-address {
   color: #434455;
