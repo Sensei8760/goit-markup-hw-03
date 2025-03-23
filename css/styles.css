@@ -28,8 +28,7 @@ img {
 }
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 .section-title {
@@ -66,7 +65,6 @@ header {
 .header-container {
   display: flex;
   justify-content: space-between;
-  padding: 24px 0 24px;
 }
 .header-navigation-link {
   color: #2e2f42;
@@ -89,6 +87,7 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 /*add*/
@@ -103,6 +102,7 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .navigation-address {
   color: #434455;
@@ -157,7 +157,15 @@ header {
   width: calc((100%-72px) / 4);
 }
 .visually-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 .features-subtitle {
   font-weight: 500;
