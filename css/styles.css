@@ -45,9 +45,7 @@ section {
   padding-bottom: 120px;
 }
 /*head-logo*/
-header {
-  padding: 24px 0;
-}
+
 .logo {
   color: #4d5ae5;
   font-weight: 700;
@@ -66,9 +64,11 @@ header {
 
 .section-header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 
 .header-navigation-link {
+  padding: 24px 0;
   color: #2e2f42;
 }
 .header-navigation-link:hover,
